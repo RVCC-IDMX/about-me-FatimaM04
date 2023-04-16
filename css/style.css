@@ -1,0 +1,39 @@
+body {
+    font-family: 'Yeseva One', cursive;
+    background-color:#C3D6C9;
+    color:#765F8C;
+
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Yeseva One";
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+
+}
+
+#hero, footer {
+    color:#765F8C;
+    border: 4px solid #598F6A;
+    background-color:#D6CCBD;
+    padding: 1px
+    
+
+}
+#bio {
+    text-align: left;
+    font-size: 15pt;
+}
+
+#hero img{
+    width: 200px;
+
+}
+#footer {
+    text-align: left;
+}
