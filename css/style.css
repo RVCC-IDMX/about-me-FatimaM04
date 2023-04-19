@@ -1,53 +1,59 @@
 body {
     font-family: 'Yeseva One', cursive;
     background-color:#C3D6C9;
-    color:#765F8C;
-
-
-
-}
+    color:#765F8C;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Yeseva One";
-    
-}
+    font-family: "Yeseva One";}
+
+
 h1 {font-size: 40pt;}
 
 h2 {
     text-align: left;
-    color: #4e725a;
-
-}
+    color: #4e725a;}
 
 header {
-    text-align: center;
+    text-align: center;}
 
-}
 
-#hero, footer {
-    color:#765F8C;
-    border: 2px solid #598F6A;
-    background-color:#C3D6C9;
-    padding: 1px
-    
+/* Hero Section */
+    #hero, footer {
+        color:#765F8C;
+        border: 2px solid #598F6A;
+        background-color:#C3D6C9;
+        padding: 1px}
+     #hero img{
+            width: 200px;}
 
-}
-#bio {
+
+/* Bio Sectio n*/
+    #bio {
     text-align: left;
     font-size: 15pt;
-    color: #765F8C;
-}
+    color: #765F8C;}
 
-#hero img{
-    width: 200px;
 
-}
 #footer {
-    text-align: left;
-}
+    text-align: left;}
 
+/* Hobby Section */
 #hobbies {
 text-align: left;
 font-size: 15pt;
-color: #765F8C;
+color: #765F8C;}
+
+/* Gallery Section */
+
+#gallery {
+    border: 2px solid #4e725a
+}
+#gallery img {
+    max-width:100%;
+
+}
+
+#gallery figure { 
+    text-align: left;
+
 }
