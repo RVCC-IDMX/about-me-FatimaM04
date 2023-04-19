@@ -47,6 +47,7 @@ color: #765F8C;}
 
 #gallery {
     border: 2px solid #4e725a
+
 }
 #gallery img {
     max-width:100%;
@@ -55,5 +56,20 @@ color: #765F8C;}
 
 #gallery figure { 
     text-align: left;
+
+}
+
+/* Lit */
+#lit {
+    font-size: 15pt;
+    
+    
+    border: 2px solid #4e725a
+    
+
+}
+#lit div {
+    padding:2rem;
+    
 
 }
