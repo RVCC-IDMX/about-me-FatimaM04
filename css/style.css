@@ -10,8 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {font-size: 40pt;}
 
 h2 {
+    margin: .1em;
     text-align: left;
     color: #4e725a;}
+
 
 header {
     text-align: center;}
@@ -42,6 +44,13 @@ header {
 text-align: left;
 font-size: 15pt;
 color: #765F8C;}
+section#hobbies {
+display: flex; 
+flex-direction: column; 
+align-items: center;
+
+}
+
 
 /* Gallery Section */
 
@@ -71,5 +80,34 @@ color: #765F8C;}
 #lit div {
     padding:2rem;
     
+
+}
+
+/* Dropcaps */ 
+
+#lit div p:first-letter {
+    color: #36774b;
+    float:left;
+    font-size: 2.5em;
+    padding: .31em;
+    line-height: .2;
+    border:2px solid#946fb6
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+    }
+figcaption {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+
+
+    }
 
 }
