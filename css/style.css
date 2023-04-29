@@ -146,3 +146,10 @@ figure {
     
     border: 2px solid #4e725a
 }
+
+/* Contact Form */
+#formElements{
+    display: grid;
+
+
+}
