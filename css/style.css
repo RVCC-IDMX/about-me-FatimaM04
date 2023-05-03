@@ -1,7 +1,7 @@
 body {
     font-family: 'Yeseva One', cursive;
-    background-color:rgb(195, 214, 201);
-    color:#765F8C;}
+    background-color:rgb(213, 230, 218);
+    color:#6f5885;}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Yeseva One";}
@@ -14,7 +14,8 @@ margin: .25em;
 
 h2 {
     margin: .1em;
-    text-align: left;
+    padding: 0%;
+    text-align: c;
     color: #4e725a;}
 
 
@@ -24,12 +25,25 @@ header {
 
 /* Hero Section */
     #hero, footer {
+        margin-bottom: 2rem;
         color:#765F8C;
-        border: 2px solid #598F6A;
+        border: none;
+        border-radius: 1em;
         background-color:#C3D6C9;
-        padding: 1px}
+        padding: 2rem;
+        padding-bottom: 1rem;
+        border: 1px solid #4e725a
+        
+        
+   
+    }
+        
      #hero img{
-            width: 200px;}
+            width: 250px;}
+    #hero {
+        text-align: center;
+
+    }
 
 
 /* Bio Sectio n*/
@@ -40,7 +54,14 @@ header {
 
 
 #footer {
-    text-align: left;}
+    text-align: center;
+    text-size-adjust: 20px;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
+    background-color: whitesmoke;
+    border: none;
+
+}
 
 /* Hobby Section */
 #hobbies {
@@ -50,7 +71,7 @@ color: #765F8C;}
 section#hobbies {
 display: flex; 
 flex-direction: column; 
-align-items: center;
+align-items: left;
 
 }
 
@@ -58,25 +79,34 @@ align-items: center;
 /* Gallery Section */
 
 #gallery {
-    border: 2px solid #4e725a
+    border-radius: 1em;
+    background-color: #C3D6C9;
+    border: 1px solid #4e725a
+    
 
 }
 #gallery img {
+   
     max-width:100%;
-
+    border: 19.5px solid whitesmoke;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+    p
 }
 
+
+
+
 #gallery figure { 
-    text-align: left;
+    text-align: center;
 
 }
 
 /* Lit */
 #lit {
+    border-radius: 1em;
     font-size: 15pt;
-    
-    
-    border: 2px solid rgb(78, 114, 90)
+    background-color:#C3D6C9;
+    border: 1px solid rgb(78, 114, 90)
     
 
 }
@@ -147,7 +177,11 @@ figure {
 
 #video {
     
-    border: 2px solid #4e725a
+    border-radius: 1em;
+    text-align: center;
+    border: 1px solid #4e725a
+    
+
 }
 
 /* Contact Form */
