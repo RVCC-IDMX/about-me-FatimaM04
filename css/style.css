@@ -1,6 +1,6 @@
 body {
     font-family: 'Yeseva One', cursive;
-    background-color:#C3D6C9;
+    background-color:rgb(195, 214, 201);
     color:#765F8C;}
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,7 +76,7 @@ align-items: center;
     font-size: 15pt;
     
     
-    border: 2px solid #4e725a
+    border: 2px solid rgb(78, 114, 90)
     
 
 }
@@ -94,7 +94,7 @@ align-items: center;
     font-size: 2.5em;
     padding: .31em;
     line-height: .2;
-    border:2px solid#946fb6
+    border:2px solidrgb(148, 111, 182)
 }
 /* tablet size */
 @media screen and (min-width: 60em) {
