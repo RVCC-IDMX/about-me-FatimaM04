@@ -7,7 +7,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Yeseva One";}
 
 
-h1 {font-size: 40pt;}
+h1 {font-size: 40pt;
+padding: 1px;
+margin: .25em;
+}
 
 h2 {
     margin: .1em;
