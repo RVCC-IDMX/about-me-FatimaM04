@@ -18,6 +18,16 @@ For the color scheme, I wanted an earthy and calming feel for the webpage, so I 
 
 I didn't use all the colors on this pallet, mostly just the darker green; `#4e725a`, `rgb(78, 114, 90)`; and purple; `#946fb6`, `rgb(148, 111, 182)`; for a better contrast, and the lighter green; `#C3D6C9`, `rgb(195, 214, 201)`; in the background, along with some hints of WhiteSmoke, `#f5f5f5`, `rgb(245, 245, 245)`; to brighten certain areas of the page.
 
+## Citations
+
+https://www.sitepoint.com/how-to-get-started-with-css-animation/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations
+
+https://animate.style/
+
+https://michalsnik.github.io/aos/
+
 ## License 
 
 For licensing, I'm not really sure what I would like to do, but I guess I'd like to reserve copyrights.
