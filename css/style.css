@@ -48,7 +48,9 @@ body {
     text-align: left;
     font-size: 15pt;
     color: #765F8C;
-    padding: 3rem;}
+    padding: 3rem;
+    line-height: 1.8;
+}
 
 
 /* Footer */
@@ -63,6 +65,7 @@ body {
 
 /* Hobby Section */
     #hobbies {
+    line-height: 2;
     text-align: left;
     font-size: 15pt;
     color: #765F8C;}
@@ -71,6 +74,7 @@ body {
     flex-direction: column; 
     align-items: left;
     padding: 2rem}
+
 
 
 /* Gallery Section */
