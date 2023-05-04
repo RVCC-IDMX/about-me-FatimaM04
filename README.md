@@ -12,8 +12,6 @@ This is for The About Me Project, which I have been cumulatively been working on
 
 I added my logo in the nav bar, as well as a favicon. It's simple, but elegant at the same time. I decided to go with my initials and a cpu icon above them in a light purple color that would complement the dark green.
 
-![Getting Started](IMG/Logo.png)
-
 For Biography and Hobbies, I mostly focused on describing myself to the best of my ability. 
 
 For the Gallery, I added a simple border with a drop shadow around the images. My images were plenty colorful on their own, so I went with white to add some brightness.
@@ -31,6 +29,8 @@ For the color scheme, I wanted an earthy and calming feel for the webpage, so I 
 ![Getting Started](IMG/pallette.jpg)
 
 I didn't use all the colors on this pallet, mostly just the darker green; `#4e725a`, `rgb(78, 114, 90)`; and purple; `#946fb6`, `rgb(148, 111, 182)`; for a better contrast, and the lighter green; `#C3D6C9`, `rgb(195, 214, 201)`; in the background, along with some hints of WhiteSmoke, `#f5f5f5`, `rgb(245, 245, 245)`; to brighten certain areas of the page.
+
+This was my original color scheme, but it didn't pass the color contrast test, and as a result, I had to heavily modify the color scheme to mostly whitesmoke, dark greens and purples. While it passed the color contrast test, it doesn't look as bright as it used to.
 
 ## Citations
 
