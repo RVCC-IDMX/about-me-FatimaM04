@@ -1,33 +1,21 @@
 /* make scrolling smooth */
-
 html {
-    scroll-behavior: smooth;
-
-}
+    scroll-behavior: smooth;}
 
 /* 
  get rid of padding & sizing on body so
  header is at top
 */
-
 body {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-
-}
+    margin: 0;}
 
 /* add some padding back to rest of page */
-
 main {
- padding-left: vw;
-
-
-
-}
+ padding-left: vw;}
 
 /* navbar */
-
 .navbar {
     background-color: rgb(76, 106, 76);
     color: whitesmoke;
@@ -36,44 +24,29 @@ main {
     font-size: 2rem;
     margin: 0rem;
     margin-bottom: 5rem;
-    padding-bottom: 0.5rem;
-    
-    
-
-}
+    padding-bottom: 0.5rem;}
 
 
 /* logo */
-
 .logo {
     display: flex;
-    align-items: center;
-
-}
+    align-items: center;}
 
 .logo img{
     height: 3vw;
     width: 3vw;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1.25rem;
-
-
-}
+    padding-bottom: 1.25rem;}
 
 .logo h1 {
-    font-size: 1.2em;
-
-}
+    font-size: 1.2em;}
 
 /* navigation list */
-
 .navbar-links li {
     list-style: none;
     display: block;
-    padding: 0.5em 0;
-
-}
+    padding: 0.5em 0;}
 
 
 
@@ -81,7 +54,6 @@ main {
  style all a tags in header 
  and then on hover
 */
-
 .navbar-links a {
     color: whitesmoke;
     background-color: rgb(76, 106, 76);
@@ -89,17 +61,14 @@ main {
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
-    display: inline-block;
-}
+    display: inline-block;}
 
 .navbar-links a:hover,
 .navbar-links a:focus {
     color: rgb(49, 68, 49);
     background-color: whitesmoke;
     border-radius: 10px;
-    outline: none;
-
-}
+    outline: none;}
 
 
 
