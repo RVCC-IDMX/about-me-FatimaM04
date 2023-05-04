@@ -26,6 +26,8 @@ main {
     margin-bottom: 5rem;
     padding-bottom: 0.5rem;}
 
+    
+
 
 /* logo */
 .logo {
@@ -95,4 +97,44 @@ such that no text wraps
         height: 4.5rem;
         align-items: center;
     }
+}
+/* Hamburger Styling*/
+.navbar {
+    width: 100%;
+}
+
+.navbar label, #hamburger {
+    display: none;
+}
+
+#hamitems {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    #hamitems {display: block;}
+    #hamitems a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid black;
+
+    }
+}
+
+.navbar label{
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 1.2em;
+    padding: 10px;
+
+
+}
+
+#hamitems {
+    display: none;}
+
+.navbar input:checked ~ #hamitems {
+    display: block;
+
 }
