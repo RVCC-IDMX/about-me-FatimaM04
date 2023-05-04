@@ -1,7 +1,12 @@
+
+
 body {
     font-family: 'Yeseva One', cursive;
-    background-color:rgb(213, 230, 218);
-    color:#6f5885;}
+    background-color:whitesmoke;
+    color:#321a49;
+   
+    
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Yeseva One";}
@@ -14,9 +19,9 @@ margin: .25em;
 
 h2 {
     margin: .1em;
-    padding: 0%;
+    padding: 0.75rem;
     text-align: c;
-    color: #4e725a;}
+    color: #22442e;}
 
 
 header {
@@ -26,10 +31,10 @@ header {
 /* Hero Section */
     #hero, footer {
         margin-bottom: 2rem;
-        color:#765F8C;
+        color:rgb(255, 255, 255);
         border: none;
-        border-radius: 1em;
-        background-color:#C3D6C9;
+        
+        background-color:#66786b;
         padding: 2rem;
         padding-bottom: 1rem;
         border: 1px solid #4e725a
@@ -50,7 +55,9 @@ header {
     #bio {
     text-align: left;
     font-size: 15pt;
-    color: #765F8C;}
+    color: #765F8C;
+    padding: 3rem  
+}
 
 
 #footer {
@@ -58,8 +65,9 @@ header {
     text-size-adjust: 20px;
     padding-bottom: 8rem;
     padding-top: 2rem;
-    background-color: whitesmoke;
+    background-color: rgb(76, 106, 76);
     border: none;
+    margin: 0;
 
 }
 
@@ -72,15 +80,14 @@ section#hobbies {
 display: flex; 
 flex-direction: column; 
 align-items: left;
-
+padding: 2rem
 }
 
 
 /* Gallery Section */
 
 #gallery {
-    border-radius: 1em;
-    background-color: #C3D6C9;
+    background-color: #96b7a0;
     border: 1px solid #4e725a
     
 
@@ -88,9 +95,9 @@ align-items: left;
 #gallery img {
    
     max-width:100%;
-    border: 19.5px solid whitesmoke;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
-    p
+    border: 10px solid whitesmoke;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
 }
 
 
@@ -103,13 +110,11 @@ align-items: left;
 
 /* Lit */
 #lit {
-    border-radius: 1em;
     font-size: 15pt;
-    background-color:#C3D6C9;
+    background-color:#96b7a0;
     border: 1px solid rgb(78, 114, 90)
-    
-
 }
+
 #lit div {
     padding:2rem;
     
@@ -119,12 +124,12 @@ align-items: left;
 /* Dropcaps */ 
 
 #lit div p:first-child:first-letter {
-    color: #36774b;
+    color: rgb(76, 106, 76);
     float:left;
     font-size: 2.5em;
     padding: .31em;
     line-height: .2;
-    border:2px solidrgb(148, 111, 182)
+    
 }
 /* tablet size */
 @media screen and (min-width: 60em) {
@@ -175,16 +180,23 @@ figure {
 }
 }
 
-#video {
-    
-    border-radius: 1em;
-    text-align: center;
-    border: 1px solid #4e725a
-    
+/*Video Responsive Styling*/
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-}
-
-/* Contact Form */
+  
+  /* Contact Form */
 #formElements{
     display: grid;
     row-gap: .5em;
@@ -207,7 +219,7 @@ fieldset {
 }
 
 legend{
-    background-color: #78aa87;
+    background-color: rgb(76, 106, 76);
     color: white;
     padding: .5em;
 
@@ -216,7 +228,7 @@ legend{
 #contact input, #contact textarea, #contact select, #contact button {
     padding: .5em;
     font-size: 1rem;
-    background-color: #f8f9f8;
+    background-color: rgb(114, 145, 114);
     border: 1em;
 
 }
@@ -233,7 +245,7 @@ legend{
 }
 
 #contact button {
-    background-color: #78aa87;
+    background-color: rgb(76, 106, 76);
     color: white;
     border: 1px solid #639271;
     max-width: 400px;
