@@ -191,3 +191,17 @@ legend{
     max-width: 400px;
     width: 50%;
     justify-self: center;}
+
+/* Link to GitHub Repo */
+    .GitIcon{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 75px;
+        width: 50px;
+        text-align: center;}
+    .GitIcon :hover {
+        color: black;
+        transition: 0.2s;
+        text-decoration: none;}
+
